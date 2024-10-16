@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- boot strap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- gsap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+<!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css"
+      integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        VaultX
+        <img id="img1" src="./images/logo.jpg" alt="" />
+      </div>
+      <nav class="nav">
+        <a href="">Home</a>
+        <a href="">Services</a>
+        <a href="">About Us</a>
+        <a href="">Contact Us</a>
+        <button class="bt" onclick="RegisterNow()" id="register">Register</button>
+        <button class="bt" onclick="loginNow()" id="login">LOGIN</button>
+      </nav>
+    </header>
+<!-- ................................carousel banner................... -->
+    <div class="banner1">
+      <div class="col-md-6">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="2000"
+          data-bs-pause="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://thumbor.forbes.com/thumbor/fit-in/1290x/https://www.forbes.com/advisor/wp-content/uploads/2021/03/getty_banking-pfin-apps_030721.jpeg.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://jupiter.money/blog/wp-content/uploads/2022/08/111.-Digital-banking-3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://asapkerala.gov.in/wp-content/uploads/2021/10/Diploma-in-Banking-Finance.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+<!-- .............................banner2 ..............................................-->
+      <div class="col-md-6">
+        <ul class="items-unstyle">
+          <li>
+            <i class="fa-solid fa-file-invoice"></i>Online Account Opening
+          </li>
+          <li><i class="fa-solid fa-message"></i>Customer Modification-KYC</li>
+          <li><i class="fa-solid fa-code-branch"></i>Nearest Branch</li>
+          <li><i class="fa-solid fa-money-bill"></i>Nearest ATM/CDM</li>
+          <li><i class="fa-brands fa-product-hunt"></i>Apply for a Product</li>
+          <li><i class="fa-brands fa-servicestack"></i>Apply for a Service</li>
+          <li><i class="fa-solid fa-percent"></i>Intrest Rate</li>
+          <li><i class="fa-solid fa-arrow-up-9-1"></i>Fores Rate</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <img
+        src="https://www.forbes.com/advisor/wp-content/uploads/2023/02/Banking-1.svg"
+        alt=""
+      />
+
+      <h2>secure and convenient banking at your fingertips</h2>
+      <button class="bttn">more</button>
+    </div>
+
+
+ <section class="features-section">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 ">
+<div class="box border border-2">
+    <div class="feature-icon">
+      <img src="./images/reward-badges.png" alt="Nature">
+      <h4>Rewards</h4>
+      <p>We can help. Let's get started.</p>
+</div>
+    </div>
+
+
+
+ 
+
+</div>
+<!-- ............ -->
+<div class="col-md-4 col-sm-6 ">
+<div class="box border border-2">
+  <div class="feature-icon">
+    <img src="./images/transfer-money.png" alt="Nature">
+    <h4>Cash Back</h4>
+    <p>We can help. Let's get started.</p>
+</div>
+  </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6 ">
+  <div class="box border border-2">
+    <div class="feature-icon">
+      <img src="./images/order-refund.png" alt="Nature">
+      <h4>Balance Transfer</h4>
+      <p>We can help. Let's get started.</p>
+  </div>
+    </div>
+  </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-6 ">
+  <div class="box border border-2">
+      <div class="feature-icon">
+        <img src="./images/brochure.png" alt="Nature">
+        <h4>Travel</h4>
+        <p>We can help. Let's get started.</p>
+  </div>
+      </div>
+  </div>
+  <!-- ............ -->
+  <div class="col-md-4 col-sm-6 ">
+  <div class="box border border-2">
+    <div class="feature-icon">
+      <img src="./images/0-percent.png" alt="Nature">
+      <h4>Zero Percent</h4>
+      <p>We can help. Let's get started.</p>
+  </div>
+    </div>
+    </div>
+  
+    <div class="col-md-4 col-sm-6 ">
+    <div class="box border border-2">
+      <div class="feature-icon">
+        <img src="./images/saving-money.png" alt="Nature">
+        <h4>Low Interest</h4>
+        <p>We can help. Let's get started.</p>
+    </div>
+      </div>
+    </div>
+              </div>
+        </div>
+  
+ </section>
+<!-- Footer -->
+<footer class="body text-center">
+  >
+  <div class="container p-4">
+    <section class="mb-4">
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a> 
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <section class="">
+      <form action="">
+        <div class="row d-flex justify-content-center">
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Subscribe to our e-mail list and stay up-to-date with all our news.</strong>
+            </p>
+          </div>
+         
+          <div class="col-md-5 col-12">
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form5Example24" class="form-control" />
+              <label class="form-label" for="form5Example24">Email address</label>
+            </div>
+          </div>
+          
+          <div class="col-auto">
+            <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
+              Subscribe
+            </button>
+          </div>
+         
+        </div>
+     
+      </form>
+    </section>
+    <section class="mb-4">
+     
+    </section>
+    <section class="">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">How Is Credit Card Interest Calculated?</h5>
+
+          <p class="content">So your bank tells you that your credit card has a 15% APR. What does that actually mean? How does your bank calculate your interest rate, and how does that translate into how much you actually pay? …</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">11 Things You Should Know Before You Get Your First Credit Card</h5>
+
+          <p class="content">A credit card may seem like just another tool to help you make purchases, but it can be much more. When used responsibly, a credit card can help you build …</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">What Is a Balance Transfer, and Should I Consider Doing One?</h5>
+
+       <p class="content">In a perfect world, no one would carry a balance on their credit card. We would all pay our bills in full each month and never have to worry about …</p>
+        </div> 
+      </div>
+    </section>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">VaultX.com</a>
+  </div>
+</footer>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+
+
+// .......................................Gsap.....................
+
+     gsap.registerPlugin(ScrollTrigger);
+
+// Create ScrollTrigger animation for the row
+gsap.from(".row", {
+    opacity: 0, 
+    y: 100, // Moves the element up 100px
+    duration: 1,
+    scrollTrigger: {
+        trigger: ".row", // The element that triggers the animation
+        start: "top 80%", // Starts when .row enters 80% of the viewport height
+        toggleActions: "play none none none", // Play on enter, no other actions
+        ease: "power3.out"
+    }
+});
+
+gsap.from(".row img", {
+    opacity: 0, 
+    y: -50, 
+    duration: 1,
+    scrollTrigger: {
+        trigger: ".row img",
+        start: "top 80%",
+        toggleActions: "play none none none"
+    }
+});
+
+gsap.from(".row h2", {
+    opacity: 0, 
+    y: 50, 
+    duration: 1, 
+    delay: 0.2, // Starts after the image animation
+    scrollTrigger: {
+        trigger: ".row h2",
+        start: "top 80%",
+        toggleActions: "play none none none"
+    }
+});
+
+gsap.from(".row .bttn", {
+    opacity: 0, 
+    scale: 0.8, 
+    duration: 1, 
+    delay: 0.4, // Starts after the heading animation
+    scrollTrigger: {
+        trigger: ".row .bttn",
+        start: "top 80%",
+        toggleActions: "play none none none",
+        ease: "back.out(1.7)" // Elastic effect for the button
+    }
+});
+
+// .......................link.................
+
+
+function RegisterNow()
+{
+
+  window.location ="./register.html"
+}
+
+
+function loginNow()
+{
+  window.location ="./login.html"
+}
+    </script>
+  </body>
+</html>
